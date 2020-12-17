@@ -7,10 +7,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = '気温華氏40度で外は寒かった。:insertx:は出かけた。 :inserty: に着いた。:insertz:体重100ポンドの:insertx:は驚いたが、 Bobは驚かなかった。:inserty:ではよくあることだった。';
-let insertX = ['スヌーピー','ミッキーマウス','サンタクロース'];
-let insertY = ['ディズニーランド','三鷹駅','津田塾大学'];
-let insertZ = ['雪が降っていた。','混雑していた。','雷がなっていた。'];
+let storyText = '気温華氏40度で外は寒かった。:insertx:は出かけた。 :inserty: に着いた。:insertz:体重 100ポンド の:insertx:は驚いたが、 Bobは驚かなかった。:inserty:ではよくあることだった。';
+let insertX = ['赤の女王','マッドハッター','アリス'];
+let insertY = ['吉祥寺駅','三鷹駅','新宿駅'];
+let insertZ = ['駅が燃えていた。','混雑していた。','雷がなっていた。'];
 
 randomize.addEventListener('click', result);
 
